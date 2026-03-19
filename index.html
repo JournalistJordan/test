@@ -3,36 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
-
+    <title>Sample Test Website</title>
     <style>
         body {
-            background-color: black;
-            color: #00ffcc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
-
-        pre {
-            font-family: monospace;
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
             text-align: center;
-            font-size: 20px;
-            line-height: 1.2;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 1rem;
+            background-color: white;
+            max-width: 800px;
+            margin: 20px auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0.5rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
-<pre>
-TTTTTTTT  EEEEEEEE  SSSSSSS  TTTTTTTT
-   TT     EE        SS          TT   
-   TT     EEEEEEE   SSSSS       TT   
-   TT     EE            SS      TT   
-   TT     EEEEEEEE  SSSSSSS     TT   
-</pre>
+    <header>
+        <h1>Welcome to My Test Website</h1>
+        <p>This is a simple HTML page for testing purposes.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home section of the sample website.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This section contains information about the website.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can contact us at <a href="mailto:test@example.com">test@example.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Sample Test Website
+    </footer>
 
 </body>
 </html>
